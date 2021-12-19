@@ -1,0 +1,44 @@
+body{
+
+	margin: 0;
+	padding:0;
+	background-color: transparent;
+background-image: url("../images/qwerty.jpg");
+background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+	
+
+}
+@media (min-width: @screen-sm-min) { ....  }
+@media (min-width: @screen-md-min){...}
+@media (min-width: @screen-lg-min){....}
+
+.container{
+	  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+	border-bottom: 2px solid blue;
+	border-left: 2px solid blue;
+	border-right: 2px solid blue;
+	padding: 10px;
+	padding-left: 5px;
+	margin: 100px;
+
+}
+.container li a {
+
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+.container button{
+	color: white;
+	background-color: black;
+}
+.container li a:hover{
+	cursor: pointer;
+	color: white;
+	
+}
